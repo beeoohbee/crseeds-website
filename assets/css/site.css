@@ -135,7 +135,7 @@ a:hover, a:focus-visible { color: var(--primary); }
 /* ---------- FAQ ---------- */
 .faq { background: var(--secondary); color: var(--white); padding-block: 56px; }
 .faq h2 { color: var(--white); text-align: center; font-size: clamp(24px, 3vw, 30px); }
-.faq mark { background: #ffff00; color: var(--primary); }
+.faq mark { background: none; color: var(--primary); }
 .faq-sub { text-align: center; font-weight: 600; margin: 0 0 50px; }
 .faq-grid { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, auto); grid-auto-flow: column; gap: 24px; align-items: start; }
 .faq details { border: 2px solid var(--white); padding: 10px 16px; }
@@ -158,6 +158,25 @@ a:hover, a:focus-visible { color: var(--primary); }
   font-size: 44px; line-height: 1; color: var(--secondary); padding: 0 6px;
 }
 .carousel-btn:hover { color: var(--primary); }
+.quotes-carousel .carousel-track { grid-auto-columns: calc((100% - 40px) / 3); }
+.quote-card {
+  margin: 0; padding: 48px 24px 32px; border-radius: var(--radius);
+  border-top: 6px solid var(--primary); box-shadow: 0 2px 10px rgba(0,0,0,.06);
+  display: flex; flex-direction: column; justify-content: center; position: relative;
+}
+.quote-card::before {
+  content: "\201C"; position: absolute; top: 4px; left: 0; right: 0;
+  font-size: 64px; line-height: 1; color: var(--green); opacity: .35;
+}
+.quote-card blockquote { margin: 0; font-size: 19px; line-height: 1.55; font-weight: 500; color: var(--heading); }
+.quote-card figcaption { font-weight: 600; font-size: 18px; color: var(--secondary); margin-bottom: 8px; }
+.quote-card.long blockquote { font-size: 15px; line-height: 1.5; }
+.carousel-dots { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 24px; }
+.carousel-dots button {
+  width: 12px; height: 12px; padding: 0; border: 0; border-radius: 50%;
+  background: var(--secondary); opacity: .35; cursor: pointer;
+}
+.carousel-dots button.active { opacity: 1; }
 .gallery .carousel-slide { background: none; }
 .gallery .carousel-slide img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 
@@ -207,7 +226,7 @@ a:hover, a:focus-visible { color: var(--primary); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1000px) {
-  .carousel-track { grid-auto-columns: calc((100% - 20px) / 2); }
+  .carousel-track, .quotes-carousel .carousel-track { grid-auto-columns: calc((100% - 20px) / 2); }
   .product-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 860px) {
@@ -230,7 +249,7 @@ a:hover, a:focus-visible { color: var(--primary); }
   .page-hero h1 { font-size: 32px; }
 }
 @media (max-width: 560px) {
-  .carousel-track { grid-auto-columns: 100%; }
+  .carousel-track, .quotes-carousel .carousel-track { grid-auto-columns: 100%; }
   .product { grid-template-columns: 1fr; }
   .product-grid { grid-template-columns: 1fr; }
   .faq-grid { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; }

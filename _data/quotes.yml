@@ -1,11 +1,42 @@
-# Images shown in the "Favorite Quotes & Sayings" carousel on the home page
-- Screen-Shot-2026-01-17-at-4.06.56-PM-793x1024.png
-- Screen-Shot-2026-01-17-at-4.10.45-PM-790x1024.png
-- Screen-Shot-2026-01-17-at-4.19.33-PM-790x1024.png
-- Screen-Shot-2026-01-17-at-4.18.17-PM-789x1024.png
-- Screen-Shot-2026-01-17-at-4.17.24-PM-789x1024.png
-- Screen-Shot-2026-01-17-at-4.15.35-PM-795x1024.png
-- Screen-Shot-2026-01-17-at-4.16.25-PM-796x1024.png
-- Screen-Shot-2026-01-17-at-4.14.34-PM-795x1024.png
-- Screen-Shot-2026-01-17-at-4.12.47-PM-791x1024.png
-- Screen-Shot-2026-01-17-at-4.08.46-PM-791x1024.png
+# "Favorite Quotes & Sayings" carousel on the home page.
+# Each line break in `text` is kept on the page. `title` is optional.
+- title: The Lord’s Prayer
+  text: |
+    Our Father, who art in heaven,
+    hallowed be thy Name;
+    thy kingdom come;
+    thy will be done;
+    on earth, as it is in heaven.
+    Give us this day our daily bread.
+    And forgive us our trespasses,
+    as we forgive those who trespass against us.
+    And lead us not into temptation;
+    But deliver us from evil.
+    For thine is the kingdom,
+    the power and the glory forever.
+    Amen.
+- text: |
+    “You can’t add days to your life, but you can add life to your days.”
+- text: |
+    “The most powerful weapon on earth is the human soul on fire.”
+- text: |
+    I’m not a fighter, I’m a lover… “No… because if you’re a lover, you got to be a fighter. Because if you don’t fight for your love, what kind of love do you have?”
+- text: |
+    “If I had everything go exactly my way and exactly as planned; I would have missed out on thousands of opportunities to learn and connect with others.”
+- text: |
+    “It’s not what happens to you, but how you react to it that matters.”
+- text: |
+    “A positive attitude causes a chain reaction of positive thoughts, events and outcomes. It is a catalyst and it sparks extraordinary results.”
+- text: |
+    The true meaning of life
+    is to plant trees
+    whose shade you will never sit under.
+- text: |
+    There are two important days:
+    the day you were born…
+    and the day you find out why.
+- text: |
+    Good, better, best.
+    Never let it rest.
+    Til’ your good is better
+    And your better is best.

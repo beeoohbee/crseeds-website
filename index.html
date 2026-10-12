@@ -75,5 +75,16 @@ title: Home
 
 <section class="quotes container">
   <h2>Favorite Quotes &amp; Sayings</h2>
-  {% include carousel.html images=site.data.quotes class="quotes-carousel" label="Favorite quotes" %}
+  <div class="carousel quotes-carousel" aria-label="Favorite quotes">
+    <button class="carousel-btn prev" aria-label="Previous">&laquo;</button>
+    <div class="carousel-track">
+      {% for q in site.data.quotes %}
+      <figure class="carousel-slide quote-card{% if q.title %} long{% endif %}">
+        {% if q.title %}<figcaption>{{ q.title }}</figcaption>{% endif %}
+        <blockquote>{{ q.text | strip | newline_to_br }}</blockquote>
+      </figure>
+      {% endfor %}
+    </div>
+    <button class="carousel-btn next" aria-label="Next">&raquo;</button>
+  </div>
 </section>
