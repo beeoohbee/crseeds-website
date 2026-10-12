@@ -1,0 +1,10 @@
+{% comment %}Usage: include carousel.html images=site.data.gallery class="gallery" label="Pictures"{% endcomment %}
+<div class="carousel {{ include.class }}" aria-label="{{ include.label }}">
+  <button class="carousel-btn prev" aria-label="Previous">&laquo;</button>
+  <div class="carousel-track">
+    {% for img in include.images %}
+    <div class="carousel-slide"><img src="{{ img | prepend: '/assets/images/' | relative_url }}" alt="" loading="lazy"></div>
+    {% endfor %}
+  </div>
+  <button class="carousel-btn next" aria-label="Next">&raquo;</button>
+</div>

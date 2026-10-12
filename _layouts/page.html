@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% if page.hero_image %}
+<section class="page-hero" style="--hero-pos: {{ page.hero_position | default: 'center' }}">
+  <img src="{{ page.hero_image | prepend: '/assets/images/' | relative_url }}" alt="">
+  <h1>{{ page.title }}</h1>
+</section>
+{% endif %}
+<main class="page-content container">
+  {{ content }}
+</main>

@@ -1,0 +1,30 @@
+title: CR Seeds & Services
+description: >-
+  CR cares immensely about you, your family & your operation by serving,
+  guiding & providing insights.
+url: "https://crseedsandservices.com"
+baseurl: ""
+
+phone: "(816) 585-5221"
+phone_link: "8165855221"
+email: j.cory.robinson@gmail.com
+address_line1: 26337 State Hwy Y
+address_line2: Winston, MO 64689
+
+social:
+  linkedin: https://www.linkedin.com/in/cory-robinson-76761177/
+  facebook: https://www.facebook.com/crseeds
+  x: https://x.com/farmboy4455
+
+links:
+  becks: https://www.beckshybrids.com/
+  maximum_farming: https://www.maximumfarming.com/
+
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .idea

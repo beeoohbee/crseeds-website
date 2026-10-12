@@ -1,0 +1,79 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <img class="hero-bg" src="{{ '/assets/images/cr_seeds_seeds.jpg' | relative_url }}" alt="">
+  <div class="hero-content">
+    <h1>CR cares immensely about you, your family &amp; your operation by serving, guiding &amp; providing insights.</h1>
+    <a class="btn btn-primary" href="{{ '/contact-us/' | relative_url }}">Contact Us</a>
+  </div>
+</section>
+
+<section class="social container">
+  <h2>For most up-to-date info and upcoming events please follow us on our social media</h2>
+  <ul class="social-links">
+    <li><a class="linkedin" href="{{ site.social.linkedin }}" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.7 3H4.3A1.3 1.3 0 0 0 3 4.3v15.4A1.3 1.3 0 0 0 4.3 21h15.4a1.3 1.3 0 0 0 1.3-1.3V4.3A1.3 1.3 0 0 0 19.7 3ZM8.3 18.3H5.7V9.7h2.6v8.6ZM7 8.6a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm11.3 9.7h-2.6v-4.2c0-1 0-2.3-1.4-2.3s-1.6 1.1-1.6 2.2v4.3h-2.6V9.7h2.5v1.2a2.7 2.7 0 0 1 2.5-1.4c2.7 0 3.2 1.8 3.2 4.1v4.7Z"/></svg></a></li>
+    <li><a class="facebook" href="{{ site.social.facebook }}" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-1.6 19.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7A10 10 0 0 0 12 2Z"/></svg></a></li>
+    <li><a class="x" href="{{ site.social.x }}" aria-label="X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.98 10.62 20.53 3h-1.55l-5.69 6.62L8.75 3H3.5l6.87 10-6.87 7.99h1.55l6.01-6.99 4.8 6.99h5.24l-7.12-10.37Zm-2.13 2.47-.7-1L5.62 4.17h2.38l4.47 6.4.7 1 5.81 8.31H16.6l-4.75-6.79Z"/></svg></a></li>
+  </ul>
+</section>
+
+<section class="products-intro container">
+  <p class="pill"><a href="{{ '/products/' | relative_url }}">Our Products</a></p>
+  <h2>Everything You Need For A Productive Harvest</h2>
+  <div class="two-col">
+    <div class="product-teaser">
+      <a href="{{ site.links.becks }}"><img src="{{ '/assets/images/Becks_Logo_2_Horizontal_D_FullColor.png-1-1024x288.png' | relative_url }}" alt="Beck's Hybrids" style="max-width:391px"></a>
+      <p>You’ve heard right hybrid on right acre… but how about matching with right management style? Let’s talk about getting to the “Root of Success.”</p>
+      <a class="btn" href="{{ '/contact-us/' | relative_url }}">Learn More</a>
+    </div>
+    <div class="product-teaser">
+      <a href="{{ site.links.maximum_farming }}"><img src="{{ '/assets/images/maximum_farming.png' | relative_url }}" alt="Maximum Farming, powered by Ag Spectrum" style="max-width:460px"></a>
+      <p>Want to be not only more efficient with fertilizer… but more effective to maximize yields? Let’s talk about “What It Takes.”</p>
+      <a class="btn" href="{{ '/contact-us/' | relative_url }}">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<section class="featured-video container">
+  <p><strong>Making Meaningful Change with the Maximum Farming System</strong></p>
+  {% include youtube.html id="Z3tt7W_CUow" title="Making Meaningful Change with the Maximum Farming System - GR Farms" %}
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <div class="testimonials-head">
+      <h2>Testimonials</h2>
+    </div>
+    <p class="testimonials-sub">-what our customers say</p>
+    <div class="testimonial-grid">
+      {% for t in site.data.testimonials %}
+      <figure class="testimonial">
+        <figcaption>{{ t.name }}</figcaption>
+        <blockquote>{{ t.quote }}</blockquote>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container">
+    <h2>Got Questions? We’ve Got <mark>Answers.</mark></h2>
+    <p class="faq-sub">Everything you need to know about our farming solutions and how we support agriculture</p>
+    <div class="faq-grid">
+      {% for item in site.data.faq %}
+      <details>
+        <summary>{{ forloop.index }}. {{ item.q }}</summary>
+        <p>-{{ item.a }}</p>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="quotes container">
+  <h2>Favorite Quotes &amp; Sayings</h2>
+  {% include carousel.html images=site.data.quotes class="quotes-carousel" label="Favorite quotes" %}
+</section>

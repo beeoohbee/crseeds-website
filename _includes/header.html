@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/crseedsandservices_logo.png' | relative_url }}" alt="{{ site.title }}">
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+        <li><a class="nav-phone" href="tel:{{ site.phone_link }}">Call or text<br>{{ site.phone }}</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

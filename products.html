@@ -1,0 +1,23 @@
+---
+layout: page
+title: Products
+permalink: /products/
+hero_image: Cory-7-1024x768.jpeg
+hero_position: 65% 15%
+---
+<blockquote class="callout">
+  <p>CR Seeds offers a variety of agricultural insights: everything from soil to seeds to your yearly productive harvest.</p>
+  <p>To learn more about any of the following products please call or text <a href="tel:{{ site.phone_link }}">{{ site.phone }}</a></p>
+</blockquote>
+
+<div class="product-grid">
+  {% for p in site.data.products %}
+  <article class="product">
+    {% if p.link %}<a href="{{ p.link }}">{% endif %}<img src="{{ p.image | prepend: '/assets/images/' | relative_url }}" alt="" loading="lazy">{% if p.link %}</a>{% endif %}
+    <div>
+      <h2>{{ p.title }}</h2>
+      <p>{{ p.text }}</p>
+    </div>
+  </article>
+  {% endfor %}
+</div>
