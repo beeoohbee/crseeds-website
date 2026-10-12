@@ -1,62 +1,132 @@
-# Photos shown in the "Pictures" carousel on the About page, in order
-- Cory-54-1024x683.jpeg
-- Cory-2-1024x579.jpeg
-- Cory-3-1024x579.jpeg
-- Cory-9-1024x579.jpeg
-- Cory-10-1024x594.jpeg
-- Cory-24-682x1024.jpeg
-- Cory-39-1024x683.jpeg
-- Cory-40-769x1024.jpeg
-- Cory-64-1024x768.jpeg
-- Cory-65-768x1024.jpeg
-- Cory-1-1024x768.jpeg
-- Cory-5-1024x768.jpeg
-- Cory-6-1024x768.jpeg
-- Cory-7-1024x768.jpeg
-- Cory-14-1024x576.jpeg
-- Cory-11-1024x768.jpeg
-- Cory-12-1024x768.jpeg
-- Cory-13-1024x768.jpeg
-- Cory-15-1024x768.jpeg
-- Cory-23-1-1024x768.jpeg
-- Cory-17-1024x576.jpeg
-- Cory-18-1024x683.jpeg
-- Cory-19-768x1024.jpeg
-- Cory-20-768x1024.jpeg
-- Cory-21-1024x768.jpeg
-- Cory-22-1024x768.jpeg
-- Cory-23-1024x768.jpeg
-- Cory-25-1024x768.jpeg
-- Cory-26-1024x768.jpeg
-- Cory-27-1024x768.jpeg
-- Cory-28-1024x768.jpeg
-- Cory-29-768x1024.jpeg
-- Cory-30-1024x768.jpeg
-- Cory-31-1024x768.jpeg
-- Cory-32-768x1024.jpeg
-- Cory-33-1024x768.jpeg
-- Cory-47-1024x768.jpeg
-- Cory-34-1024x768.jpeg
-- Cory-36-1024x694.jpeg
-- Cory-37-1024x768.jpeg
-- Cory-38-1024x768.jpeg
-- Cory-41-768x1024.jpeg
-- Cory-45-1024x768.jpeg
-- Cory-44-1024x768.jpeg
-- Cory-46-1024x768.jpeg
-- Cory-48-768x1024.jpeg
-- Cory-49-1024x768.jpeg
-- Cory-50-768x1024.jpeg
-- Cory-51-768x1024.jpeg
-- Cory-52-768x1024.jpeg
-- Cory-53-768x1024.jpeg
-- Cory-55-1024x768.jpeg
-- Cory-56-1024x768.jpeg
-- Cory-57-1024x540.jpeg
-- Cory-58-768x1024.jpeg
-- Cory-59-1024x818.jpeg
-- Cory-60-1024x768.jpeg
-- Cory-61-768x1024.jpeg
-- Cory-62-1024x768.jpeg
-- Cory-63-1024x768.jpeg
-- Cory-67-1024x768.jpeg
+# Photos shown in the "Pictures" carousel on the About page, in order.
+# `alt` describes the photo for search engines and screen readers.
+- image: cr-seeds-services-family-at-warehouse-becks-sign-winston-mo.jpg
+  alt: "The Robinson family of CR Seeds & Services in front of their warehouse and Beck’s Hybrids sign in Winston, MO"
+- image: cory-robinson-and-wife-cr-seeds-services-owners.jpg
+  alt: "Cory Robinson and his wife, owners of CR Seeds & Services"
+- image: cr-seeds-family-maximum-farming-sign-cornfield.jpg
+  alt: "The Robinson family beside a Maximum Farming by Ag Spectrum sign in a cornfield"
+- image: cr-seeds-family-becks-hybrids-sign-cornfield.jpg
+  alt: "The Robinson family beside a Beck’s Hybrids and CR Seeds & Services sign in a cornfield"
+- image: cr-seeds-family-walking-cornfield-missouri.jpg
+  alt: "The Robinson family walking between rows of corn in Missouri"
+- image: group-visit-school-bus-cr-seeds-warehouse-becks-sign.jpg
+  alt: "A group visiting the CR Seeds & Services warehouse with a school bus and Beck’s sign"
+- image: combine-unloading-soybeans-into-semi-at-harvest.jpg
+  alt: "A combine unloading soybeans into a semi truck during harvest"
+- image: boy-with-toy-airplane-in-harvested-field.jpg
+  alt: "A young boy playing with a toy airplane in a harvested field"
+- image: family-watching-soybean-harvest-grain-trucks.jpg
+  alt: "Family watching grain trucks during soybean harvest"
+- image: aerial-view-combine-harvesting-soybeans.jpg
+  alt: "Aerial view of a combine harvesting soybeans"
+- image: robinson-family-beach-vacation.jpg
+  alt: "The Robinson family on a beach vacation"
+- image: becks-cr-seeds-sign-in-tall-cornfield.jpg
+  alt: "A girl beside a Beck’s CR Seeds sign in a tall cornfield"
+- image: becks-sign-in-soybean-field.jpg
+  alt: "A man standing beside a Beck’s sign in a soybean field"
+- image: cory-robinson-leading-warehouse-tour.jpg
+  alt: "Cory Robinson leading a group tour inside the CR Seeds & Services warehouse"
+- image: cory-robinson-talking-with-visitors-in-field.jpg
+  alt: "Cory Robinson talking with visitors in a field"
+- image: cr-seeds-services-warehouse-winston-mo.jpg
+  alt: "The CR Seeds & Services warehouse and Beck’s sign in Winston, MO"
+- image: wall-of-puzzles-farmers-at-heart-becks-fuel-trailer.jpg
+  alt: "The Wall of Puzzles under the Farmers at Heart banner, with a Beck’s fuel trailer"
+- image: cr-seeds-warehouse-at-sunset.jpg
+  alt: "The CR Seeds & Services warehouse at sunset"
+- image: becks-seed-boxes-stacked-in-warehouse.jpg
+  alt: "Beck’s seed boxes stacked inside the CR Seeds & Services warehouse"
+- image: aerial-view-curved-crop-rows-near-warehouse.jpg
+  alt: "Aerial view of curved crop rows beside the warehouse"
+- image: seed-planning-meeting-with-farmer.jpg
+  alt: "Reviewing seed and field plans with a customer at the kitchen table"
+- image: becks-founded-in-faith-semi-trailer.jpg
+  alt: "Beck’s “Founded in Faith, Forged in America” semi trailer at the warehouse"
+- image: cory-robinson-selfie-with-sheep.jpg
+  alt: "Cory Robinson taking a selfie with a sheep in a field"
+- image: combine-unloading-into-grain-cart-at-harvest.jpg
+  alt: "A combine unloading grain into a grain cart at harvest"
+- image: becks-maximum-farming-roadside-sign.jpg
+  alt: "Beck’s and Maximum Farming signs by a mailbox along a country road"
+- image: aerial-view-combine-harvesting-corn.jpg
+  alt: "Aerial view of a combine harvesting corn"
+- image: aerial-view-farmland-test-plots-missouri.jpg
+  alt: "Aerial view of farmland and test plots in Missouri"
+- image: cr-seeds-leather-patch-trucker-hat.jpg
+  alt: "A CR Seeds & Services leather patch trucker hat"
+- image: palletized-farm-supplies-on-trailer.jpg
+  alt: "Pallets of farm supplies loaded on a trailer in the warehouse"
+- image: palletized-farm-supplies-in-storage.jpg
+  alt: "Pallets of farm supplies stored in the warehouse"
+- image: becks-farmers-at-heart-sign-soybean-field.jpg
+  alt: "A Beck’s Farmers at Heart sign in a soybean field"
+- image: cory-robinson-and-wife-at-outdoor-event.jpg
+  alt: "Cory Robinson and his wife at an outdoor event"
+- image: robinson-family-road-trip.jpg
+  alt: "The Robinson family on a road trip"
+- image: robinson-family-outdoors.jpg
+  alt: "The Robinson family outdoors"
+- image: robinson-family-mountain-vacation.jpg
+  alt: "The Robinson family on a mountain vacation"
+- image: live-band-customer-event-cr-seeds-warehouse.jpg
+  alt: "A live band playing at a customer event in the CR Seeds & Services warehouse"
+- image: kids-ride-toy-forklift-customer-event.jpg
+  alt: "Kids riding a toy forklift at a customer event in the warehouse"
+- image: becks-cr-seeds-sign-soybean-field.jpg
+  alt: "A Beck’s CR Seeds sign with phone number in a soybean field"
+- image: becks-better-bedding-corn-cob-animal-bedding.jpg
+  alt: "Beck’s Better Bedding all-natural crushed corn cob animal bedding"
+- image: becks-farmers-at-heart-sign-mature-soybeans.jpg
+  alt: "A Beck’s Farmers at Heart sign at the edge of a mature soybean field"
+- image: becks-semi-truck-at-cr-seeds-warehouse.jpg
+  alt: "A Beck’s semi truck at the CR Seeds & Services warehouse"
+- image: sunset-over-soybean-field.jpg
+  alt: "Sunset over a soybean field"
+- image: becks-corn-hybrid-ear-comparison.jpg
+  alt: "Ears of corn from different Beck’s hybrids in a comparison tray"
+- image: livestock-trailer-in-cr-seeds-warehouse.jpg
+  alt: "A livestock trailer in the CR Seeds & Services warehouse"
+- image: drone-over-becks-test-plots.jpg
+  alt: "A drone flying over Beck’s seed test plots"
+- image: cr-seeds-services-office.jpg
+  alt: "Working at the desk in the CR Seeds & Services office"
+- image: cory-robinson-with-sons.jpg
+  alt: "Cory Robinson with his three sons"
+- image: becks-seed-boxes-on-flatbed-trailer.jpg
+  alt: "Beck’s seed boxes loaded on a flatbed trailer in the warehouse"
+- image: cleaning-out-planter-seed-boxes.jpg
+  alt: "Cleaning out the seed boxes on a planter"
+- image: signing-paperwork-with-farmer-on-tailgate.jpg
+  alt: "Going over paperwork with a farmer on a truck tailgate"
+- image: seed-delivery-flatbed-trailer-warehouse.jpg
+  alt: "Beck’s seed boxes on a flatbed trailer ready for delivery"
+- image: cr-seeds-trucker-hats-display.jpg
+  alt: "A display of CR Seeds & Services trucker hats"
+- image: soil-sampling-bags-in-truck-bed.jpg
+  alt: "Bagging soil samples in the bed of a truck"
+- image: soil-sampling-with-probe-in-field.jpg
+  alt: "Pulling soil samples with a probe in a field"
+- image: soil-sampling-green-field.jpg
+  alt: "Soil sampling in a green field"
+- image: becks-sign-in-front-of-combine.jpg
+  alt: "Holding a Beck’s sign in front of a John Deere 9660 STS combine"
+- image: planter-demonstration-field-day.jpg
+  alt: "Students at a field day with a planter demonstration"
+- image: becks-test-plot-field-day.jpg
+  alt: "A field day at Beck’s test plots"
+- image: hands-on-soil-demonstration-field-day.jpg
+  alt: "A hands-on soil demonstration at a field day"
+- image: soil-samples-shipping-midwest-laboratories.jpg
+  alt: "Packing soil samples to ship to Midwest Laboratories"
+- image: cory-robinson-maximum-farming-conference.jpg
+  alt: "Cory Robinson at a Maximum Farming conference"
+- image: maximum-farming-conference-attendees.jpg
+  alt: "Cory Robinson with an attendee at a Maximum Farming conference"
+- image: cory-robinson-presenting-grower-meeting.jpg
+  alt: "Cory Robinson presenting at a grower meeting"
+- image: becks-cr-seeds-sign-at-sunrise.jpg
+  alt: "A Beck’s CR Seeds & Services sign at sunrise"
+- image: seed-boxes-and-atv-on-trailer-warehouse.jpg
+  alt: "Seed boxes and an ATV on a trailer in the warehouse"

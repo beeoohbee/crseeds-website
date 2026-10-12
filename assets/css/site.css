@@ -178,7 +178,7 @@ a:hover, a:focus-visible { color: var(--primary); }
 }
 .carousel-dots button.active { opacity: 1; }
 .gallery .carousel-slide { background: none; }
-.gallery .carousel-slide img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.gallery .carousel-slide img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 20%; }
 
 /* ---------- Inner pages ---------- */
 .page-hero { position: relative; height: 400px; display: grid; place-items: center; overflow: hidden; }

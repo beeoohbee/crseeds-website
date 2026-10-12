@@ -3,7 +3,8 @@
   <button class="carousel-btn prev" aria-label="Previous">&laquo;</button>
   <div class="carousel-track">
     {% for img in include.images %}
-    <div class="carousel-slide"><img src="{{ img | prepend: '/assets/images/' | relative_url }}" alt="" loading="lazy"></div>
+    {% assign src = img.image | default: img %}
+    <div class="carousel-slide"><img src="{{ src | prepend: '/assets/images/' | relative_url }}" alt="{{ img.alt | escape }}" loading="lazy"></div>
     {% endfor %}
   </div>
   <button class="carousel-btn next" aria-label="Next">&raquo;</button>
