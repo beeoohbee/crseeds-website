@@ -3,9 +3,8 @@ description: >-
   CR cares immensely about you, your family & your operation by serving,
   guiding & providing insights.
 url: "https://crseedsandservices.com"
-# Subpath the site is served from. "/crseeds-website" for beeoohbee.github.io/crseeds-website/;
-# set back to "" once crseedsandservices.com points at GitHub Pages.
-baseurl: "/crseeds-website"
+# Served from the root of the custom domain (see CNAME), so no subpath.
+baseurl: ""
 
 phone: "(816) 585-5221"
 phone_link: "8165855221"
@@ -26,6 +25,7 @@ permalink: pretty
 
 exclude:
   - README.md
+  - TODO.md
   - Gemfile
   - Gemfile.lock
   - vendor
